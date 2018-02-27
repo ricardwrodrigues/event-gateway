@@ -44,3 +44,4 @@ Make sure `ca-certificates.crt` file is present in the project directory.
 ```sh
 CGO_ENABLED=0 GOOS=linux go build cmd/event-gateway/main.go -a -installsuffix cgo -o main .
 ```
+Now run `docker build` with the arguments you want.
